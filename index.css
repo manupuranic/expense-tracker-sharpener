@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(246, 239, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: blueviolet;
+  margin-top: 2.5%;
+  font-family: cursive;
+}
+
+.expense-container {
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  margin: 30px 0 30px 20%;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.submit-btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.li-btn {
+  float: right;
+  margin-left: 5px;
+}
+
+.symbol {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.span-amount {
+  color: green;
+  font-size: 1.5rem;
+}
+.span-desc {
+  color: #ab27fd;
+  display: block;
+}
+.span-category {
+  display: block;
+  font-style: italic;
+}
